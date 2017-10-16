@@ -7,11 +7,11 @@ from whoosh.writing import AsyncWriter
 
 
 
-def incremental_index(indexdir, indexname):
+def update_index(indexdir, indexname):
     """
     注意这里，　每次增加索引都会产生一个新的ｓｅｇ文件，　会占用空间，　所以这里需要注意
-    :param indexdir:
-    :param indexname:
+    :param indexdir: 索引目录
+    :param indexname: 索引名
     :return:
     """
     # print(indexdir)
