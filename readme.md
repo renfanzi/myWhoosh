@@ -2,6 +2,11 @@
 
 # myWhoosh = MySQL + Python + whoosh + jieba
 
+# 注意：  
+这个代码有点老， 可以看一下链接：https://github.com/renfanzi/myTornadoWhoosh  
+就在上面， 也可以直接过去看， 其实那里边路径 common/myWhoosh/.... 的代码是myWhoosh代码的优化  
+而且已经应用上线， tornado + whoosh + jieba + mysql 做的一个webserver的搜索引擎
+
 首先声明，　ｗｈｏｏｓｈ的使用与Ｐｙｔｈｏｎ的任何框架无关．
 
 
